@@ -76,14 +76,15 @@ footer {
     height: 100vh;
   }
   .container-header {
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 50px;
   }
   .contacts {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -93,7 +94,8 @@ footer {
   }
   .logo {
     width: 250px;
-    padding: 20px 0 30px;
+    padding: 0;
+    margin: 30px;
   }
   .product-img {
     max-width: 400px;
